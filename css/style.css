@@ -162,8 +162,8 @@ h6 {
   max-height: 26px;
 }
 .logo-img{
-  max-height: 40px !important;
-  margin: 0 !important;
+  max-height: 50px !important;
+  margin:-5px 0px 0px 0px !important ;
 }
 .fonter{
   display: flex;
