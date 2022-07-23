@@ -477,7 +477,7 @@ h6 {
   font-size: 15px;
   padding-bottom: 60px;
   color: #556877;
-  width: 80%;
+  width: 100%;
 }
 
 /* Section with background
@@ -722,7 +722,19 @@ h6 {
   font-size: 14px;
   color: #cce5ff;
 }
-
+.temp{
+  margin: auto !important;
+  width: 100%;
+  
+}
+.technology-img{
+  width: 100%;
+}
+.pad{
+  padding: 0 30px;
+  align-items: center;
+  display: flex;
+}
 /* Portfolio Section
 --------------------------------*/
 
@@ -1378,10 +1390,35 @@ h6 {
     margin: 0;
   }
 }
-
+@media (min-width:768px) {
+  .temp{
+    display: flex;
+    justify-content: space-between;  
+  }
+  .technology-img{
+    height: 100px;
+    width: 100px;
+  }
+  .pad{
+    justify-content: center;
+    padding: 30px;
+  }
+}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .temp{
+    display: flex;
+    justify-content: space-between;  
+  }
+  .technology-img{
+    height: 80px;
+    width: 80px;
+  }
+  .pad{
+    padding: 20px;
+    justify-content: center;
   }
 }
 
@@ -1418,5 +1455,8 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+  .pad{
+    width: 50%;
   }
 }
