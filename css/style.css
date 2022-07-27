@@ -1347,6 +1347,9 @@ h6 {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
+.copyright_text{
+  padding-top: 30px ;
+}
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
